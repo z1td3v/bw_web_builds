@@ -1,6 +1,6 @@
 # Web Vault builds for Vaultwarden
 
-![Vaultwarden Logo](https://raw.githubusercontent.com/dani-garcia/vaultwarden/refs/heads/main/resources/vaultwarden-logo-auto.svg)
+![Vaultwarden Logo](./resources/vaultwarden-logo-auto.svg)
 
 Scripts and CI to patch (including branding) and build the [Bitwarden web client](https://github.com/bitwarden/clients/tree/main/apps/web) [[disclaimer](#disclaimer)], to make it compatible with [Vaultwarden](https://github.com/dani-garcia/vaultwarden).
 
