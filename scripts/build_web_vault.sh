@@ -29,7 +29,7 @@ npm run dist:oss:selfhost
 
 # Create vw-version.json with the latest tag from the remote repo.
 printf '{"version":"%s"}' \
-      "$(git ls-remote --tags --refs --sort='v:refname' https://github.com/dani-garcia/bw_web_builds.git 'v*' | tail -n1 | grep -Eo '[^\/v]*$')" \
+      "$(git ls-remote --tags --refs --sort='v:refname' https://github.com/z1td3v/bw_web_builds.git 'v*' | tail -n1 | grep -Eo '[^\/v]*$')" \
       | tee -a build/vw-version.json
 
 popd
